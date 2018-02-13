@@ -1,16 +1,44 @@
 h1 {
     text-align: center;
+    margin-top: 75px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 60px;
+    color: rgb(0, 128, 0);
 }
 
 h2 {
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 15px;
+    color:#B8860B;
 }
 
 h3 {
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 15px;
+    color:#B8860B;
 }
 
 main {
     padding: 70px 0;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 18px;
+}
+
+
+
+body {
+  background: linear-gradient(to bottom right, rgb(218, 243, 149), rgb(235, 235, 227));
+}
+
+.container{
+    background-color: rgb(216, 197, 144);
+    width: 50%;
+    height: 130px;
+    border: 3px solid #B8860B;
+    color: white;
+    margin: 10px auto;
+    padding: 20px;
 }
