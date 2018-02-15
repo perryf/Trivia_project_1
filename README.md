@@ -6,4 +6,4 @@ This trivia games's purpose is to raise awarness about endangered species; in a 
 Further reading and information section is included in a footer. 
 
 Sources used: https://www.worldwildlife.org
-              https://www.w3schools.com
+https://www.w3schools.com
