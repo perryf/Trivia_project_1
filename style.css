@@ -1,22 +1,23 @@
 h1 {
     text-align: center;
-    margin-top: 75px;
+    margin-top: 125px;
     font-family: 'Cabin Sketch', cursive;
     font-size: 60px;
     color: rgb(0, 128, 0);
+    text-shadow: 2px 2px 4px #000000
 }
 
 h2 {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     color:#B8860B;
 }
 
 h3 {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     color:#B8860B;
 }
 
@@ -27,8 +28,6 @@ main {
     font-size: 18px;
 }
 
-
-
 body {
   background: linear-gradient(to bottom right, rgb(218, 243, 149), rgb(235, 235, 227));
 }
@@ -36,9 +35,31 @@ body {
 .container{
     background-color: rgb(216, 197, 144);
     width: 50%;
-    height: 130px;
+    height: 135px;
     border: 3px solid #B8860B;
     color: white;
     margin: 10px auto;
-    padding: 20px;
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    color: #B8860B;
+}
+
+button {
+    background-color: #B8860B;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    width: 150px;
+    padding: 20px 16px;
+    margin-top: 20px;  
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }

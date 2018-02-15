@@ -1,5 +1,8 @@
 console.log('Hello World')
 
+var userInput = 0
+var score = document.querySelector('.score')
+
 const aButton = document.querySelector('#a')
 const bButton = document.querySelector('#b')
 const cButton = document.querySelector('#c')
@@ -28,18 +31,15 @@ const sButton = document.querySelector('#s')
 const tButton = document.querySelector('#t')
 const uButton = document.querySelector('#u')
 
-//const correctAnswers = ['cButton', 'eButton','gButton', 'kButton','oButton','pButton', 'uButton']
-//cont wrongAnswers = ['aButton', 'bButton', 'fButton', 'dButton', 'dButton', 'hButton', 'iButton',
-//'jButton', 'lButton', 'mButton', 'nButton', 'qButton', 'rButton', 'sButton', 'tButton']
-
 aButton.addEventListener('click', question1)
 bButton.addEventListener('click', question1)
 cButton.addEventListener('click', question1)
 
-
- function question1() {
+function question1() {
     if (this.innerHTML === '500,000') {
         this.style.backgroundColor = 'green'
+        userInput+= 10
+        score.innerHTML = 'Score'+' '+userInput 
     } else {
         this.style.backgroundColor = 'red'
     }
@@ -52,6 +52,8 @@ fButton.addEventListener('click', question2)
  function question2() {
     if (this.innerHTML === '30,000') {
         this.style.backgroundColor = 'green'
+        userInput+= 10
+        score.innerHTML = 'Score'+' '+userInput 
     } else {
         this.style.backgroundColor = 'red'
     }
@@ -64,6 +66,8 @@ iButton.addEventListener('click', question3)
  function question3() {
     if (this.innerHTML === '5') {
         this.style.backgroundColor = 'green'
+        userInput+= 10
+        score.innerHTML = 'Score'+' '+userInput 
     } else {
         this.style.backgroundColor = 'red'
     }
@@ -76,6 +80,8 @@ lButton.addEventListener('click', question4)
 function question4() {
     if (this.innerHTML === '3') {
         this.style.backgroundColor = 'green'
+        userInput+= 10
+        score.innerHTML = 'Score'+' '+userInput 
     } else {
         this.style.backgroundColor = 'red'
     }
@@ -88,7 +94,9 @@ oButton.addEventListener('click', question5)
 function question5() {
     if (this.innerHTML === 'Both') {
         this.style.backgroundColor = 'green'
-    } else {
+        userInput+= 10
+        score.innerHTML = 'Score'+' '+userInput 
+     } else {
         this.style.backgroundColor = 'red'
     }
  }
@@ -100,6 +108,8 @@ rButton.addEventListener('click', question6)
 function question6() {
     if (this.innerHTML === '850 - 3,500 kg') {
         this.style.backgroundColor = 'green'
+        userInput+= 10
+        score.innerHTML = 'Score'+' '+userInput 
     } else {
         this.style.backgroundColor = 'red'
     }
@@ -112,6 +122,8 @@ uButton.addEventListener('click', question7)
 function question7() {
     if (this.innerHTML === 'Both') {
         this.style.backgroundColor = 'green'
+        userInput+= 10
+        score.innerHTML = 'Score'+' '+userInput 
     } else {
         this.style.backgroundColor = 'red'
     }
