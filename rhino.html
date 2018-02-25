@@ -9,21 +9,22 @@
     <title>Rhino Trivia</title>
 </head>
 <body>
-  <header>
-    <h1>All about Rhinoceros</h1>
+    <header> <!-- Good use of semantic tags like header/main/footer -->
+        <h1>All about Rhinoceros</h1> <!-- Watch the indentation here -->
         <h2>Check your knowledge about one of the endangered species</h2>
-       <h3 class="score">Score 0</h3>
+        <h3 class="score">Score 0</h3>
     </header> 
 
     <main>
         <div class="container">
-             <p class="question1">what was the population of Rhinoceros at the beginning of the 20th century?</p>
+             <p class="question1">What was the population of Rhinoceros at the beginning of the 20th century?</p>
             
              <button type="button" id="a">100,000</button>
              <button type="button" id="b">300,000</button>
              <button type="button" id="c">500,000</button> 
+             <!-- You don't actually need `type="button"` if the element is a button, that's only necessary for `input` tags -->
         </div>
-       <br><br>
+       <br><br> <!-- Instead of having these line breaks, a better practice would be to just add some margin-bottom to each of the containers -->
        
        <div class="container">
             <p class="question2">What is the population of Rhinoceros today?</p>
@@ -32,7 +33,7 @@
             <button type="button" id="e">30,000</button>
             <button type="button" id="f">50,000</button>
         </div>            
-            <br><br>
+        <br><br>
           
         <div class="container">
             <p class="question3">How many species of Rhinoceros are there?</p>
@@ -41,7 +42,7 @@
             <button type="button" id="h">3</button>
             <button type="button" id="i">7</button>
         </div>
-            <br><br>
+        <br><br>
 
         <div class="container">
             <p class="question4">How many of Northern Rhinoceros exist on Earth up to date?</p>
@@ -50,7 +51,7 @@
             <button type="button" id="k">3</button>
             <button type="button" id="l">7</button>
         </div>          
-            <br><br>
+        <br><br>
 
         <div class="container">
             <p class="question5">What is the habitat of Rhinoceros?</p>
@@ -59,7 +60,7 @@
             <button type="button" id="n">Deserts</button>
             <button type="button" id="o">Both</button>  
         </div>           
-            <br><br>
+        <br><br>
          
         <div class="container">
             <p class="question6">How much does a Rhinoceros weigh?</p>
@@ -68,7 +69,7 @@
             <button type="button" id="q">2,000 kg-5,000 kg</button>
             <button type="button" id="r">1,000 kg-2,000 kg</button>
         </div>               
-            <br><br>
+        <br><br>
 
         <div class="container">
             <p class="question7">How many horns does a Rhinoceros have?</p>
@@ -77,11 +78,16 @@
             <button type="button" id="t">2</button>
             <button type="button" id="u">Both</button>
         </div>               
-            <br><br>
+        <br><br>
 
-       </main>
+    </main>
 
-<footer>For more information, please visit <a href="https://www.worldwildlife.org/">www.worldwildlife.org</a></footer>
-<script src="script.js"></script>
+    <footer>For more information, please visit <a href="https://www.worldwildlife.org/">www.worldwildlife.org</a></footer>
+    <script src="script.js"></script>
 </body>
 </html>
+
+<!-- Good job overall with the html. You have valid html and its structured pretty well. Here are a few more suggestions -->
+<!-- I would eliminate the `br` tag and create proper spacing from the `margin` properties -->
+<!-- I'd probably just call this file `index.html` -->
+<!-- Also, I had to look this up, but the plural of rhinoceros is rhinoceroses -->

@@ -1,10 +1,10 @@
 h1 {
     text-align: center;
     margin-top: 125px;
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Cabin Sketch', cursive; /* Good use of an external font */
     font-size: 60px;
-    color: rgb(0, 128, 0);
-    text-shadow: 2px 2px 4px #000000
+    color: rgb(0, 128, 0); /* Try to be consistent with how you declare colors, so some places its rgb, and others its hex */
+    text-shadow: 2px 2px 4px #000000 /* Cool use of shadow */
 }
 
 h2 {
@@ -25,11 +25,12 @@ main {
     padding: 70px 0;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
-    font-size: 18px;
+    font-size: 18px; /* Some of this code is looking repetitive. Make use of class names to add similar styling to one class */
 }
 
 body {
   background: linear-gradient(to bottom right, rgb(218, 243, 149), rgb(235, 235, 227));
+  /* Nice subtle use of gradient */
 }
 
 .container{
@@ -62,4 +63,13 @@ button {
     margin-top: 20px;  
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* Nice box shadow effect */
+}
+
+/* To answer your question about media queries. Below I show how you would set one up */
+/* Your file scales well to a point. Probably want to make the buttons smaller once your page gets down to a certain size. */
+@media (max-width: 700px) {
+    body {
+        background: blue;
+    }
 }
